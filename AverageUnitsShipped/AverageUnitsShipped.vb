@@ -43,7 +43,7 @@ Public Class frmAverageUnitsShipped
     ''' After 7 days, the average will be calculated and printed to the screen
     ''' </summary>
     ''' <param name="sender"></param>
-    ''' <param name="e"></param>
+    ''' <param name="e"></param>//
     Private Sub btnEnter_Click(sender As Object, e As EventArgs) Handles btnEnter.Click
         Dim counter As String
         'Declarations
