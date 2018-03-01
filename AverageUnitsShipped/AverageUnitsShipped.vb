@@ -43,9 +43,9 @@ Public Class frmAverageUnitsShipped
     ''' After 7 days, the average will be calculated and printed to the screen
     ''' </summary>
     ''' <param name="sender"></param>
-    ''' <param name="e"></param>//
+    ''' <param name="e"></param>
     Private Sub btnEnter_Click(sender As Object, e As EventArgs) Handles btnEnter.Click
-        Dim counter As String
+        Dim counter As Integer
         'Declarations
         Dim average As Double = 0.0 'Declares new string average and initializes with a blank string
         Dim input As Integer = 0 'Declares new integer input and initializes to 0
